@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
 /*=========UNIVERSAL=============*/
 
 .container-fluid {
@@ -112,3 +115,68 @@ padding-bottom: 140px;
 }
 
 /*=========END CAROUSEL=============*/
+
+
+/*=========OUR STORY=============*/
+
+#our_story {
+min-height: 600px;
+}
+
+.our_story_row{
+margin-top: 30px;
+}
+
+.our_story {
+font-family: 'Lobster', serif;
+color: #F8512F;
+font-size: 6em;
+text-shadow: 1px 1px 5px #0a0a0a;
+}
+
+.one_man {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  margin-top: 0;
+}
+
+.story-year {
+  font-weight: 700;
+  font-size: 13em;
+  z-index: -10000;
+  position: absolute;
+  color: rgba(149, 147, 147, 0.2);
+  font-family: 'Playfair Display', sans-serif;
+}
+#our_story {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+/*=========OUR STORY ENDS=============*/
+
+/*========= Review=============*/
+#review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+.center {
+  background-color: rgba(20, 20, 20, 0.6);
+  margin-top: 145px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.fresno-bee {
+  font-family: 'Lobster', cursive;
+  font-size: 5em;
+  color: #f8512f;
+}
+.review {
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+}
+/*=========END Review=============*/
